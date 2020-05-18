@@ -4,7 +4,7 @@ Custom Modal View is a tiny SwiftUI library that lets you present completely cus
 
 It's API is built similar to the one of native `.sheet(...)` view modifier and its usage fits well into the existing SwiftUI apps.
 
-![Styling View](Screenshots/preview.gif)
+<img align="center" src="Screenshots/preview.gif">
 
 # Installation
 
@@ -20,9 +20,9 @@ This library is best used on iOS and iPadOS but macOS works as well.
 
 The code would compile for tvOS and watchOS as well but the UI paradigms there are different enough so that using modals does not really make sense.
 
-![Styling View](Screenshots/example_ios.png)
+<img align="center" src="Screenshots/example_ios.png">
 
-![Styling View](Screenshots/example_macos.png)
+<img align="center" src="Screenshots/example_macos.png">
 
 # Usage
 
@@ -36,7 +36,7 @@ You need to pass a binding to some `Bool` or `Identifiable?` property so that th
 
 The example below shows initialization with a binding to a `Bool` property.
 
-```
+```swift
 struct MainView: View {
     @State var modalIsDisplayed = false
     
@@ -54,7 +54,7 @@ struct MainView: View {
 
 And the next example shows initialization with a binding to an `Identifiable?` property.
 
-```
+```swift
 struct ContentView: View {
     enum SomethingIdentifiable: Int, Identifiable {
         case llama = 1
@@ -88,7 +88,7 @@ Such property of your view should be defined as `@Environment(\.modalPresentatio
 
 Doing so would look like the following example.
 
-```
+```swift
 import CustomModalView
 
 struct ContentView: View {
@@ -126,7 +126,7 @@ Another option would be to just pass the binding to the property your modal is b
 
 This is a bit cumbersome, but it can be done quite easily.
 
-```
+```swift
 struct ContentView: View {
     @State var modalIsDisplayed = false
 
@@ -174,7 +174,7 @@ You can use all SwiftUI tools to do so.
 
 For example - a modal defined like the one in the example below.
 
-```
+```swift
 struct ContentView: View {
     @State var modalIsDisplayed = false
 
@@ -195,7 +195,7 @@ struct ContentView: View {
 
 Will result in the following UI.
 
-![Styling View](Screenshots/styling_view.png)
+<img align="center" src="Screenshots/styling_view.png">
 
 ### Styling the container
 
@@ -205,7 +205,7 @@ Defining your own style is easy. First create a `struct` conforming to `ModalSty
 
 Using the two functions you can completely customize the appearance of both the background and modal views as well as the animation used when the modal appears and disappears.
 
-```
+```swift
 struct DefaultModalStyle: ModalStyle {
     let animation: Animation? = .easeInOut(duration: 0.5)
     
@@ -234,7 +234,7 @@ In fact, this is exactly how the [DefaultModalStyle](Sources/CustomModalView/Sty
 
 A fancy style may look like the example below.
 
-```
+```swift
 import CustomModalView
 
 struct FancyModalStyle: ModalStyle {
@@ -275,6 +275,6 @@ struct ContentView: View {
 
 The result of such style is demonstrated by the following screenshots.
 
-![Styling View](Screenshots/styling_container.png)
+<img align="center" src="Screenshots/styling_container.png">
 
-![Styling View](Screenshots/styling_container_macos.png)
+<img align="center" src="Screenshots/styling_container_macos.png">
