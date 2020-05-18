@@ -3,8 +3,9 @@
 Custom Modal View is a tiny SwiftUI library that lets you present completely customizable modal dialogs.
 
 It's API is built similar to the one of native `.sheet(...)` view modifier and its usage fits well into the existing SwiftUI apps.
-
-<img align="center" src="Screenshots/preview.gif">
+<p align="center">
+    <img src="Screenshots/preview.gif">
+</p>
 
 # Installation
 
@@ -12,7 +13,9 @@ It's API is built similar to the one of native `.sheet(...)` view modifier and i
 
 Simply add URL of this repository into your package dependencies:
 
+```
 https://github.com/jankaltoun/custom-modal-view
+```
 
 # Platform support
 
@@ -20,9 +23,10 @@ This library is best used on iOS and iPadOS but macOS works as well.
 
 The code would compile for tvOS and watchOS as well but the UI paradigms there are different enough so that using modals does not really make sense.
 
-<img align="center" src="Screenshots/example_ios.png">
-
-<img align="center" src="Screenshots/example_macos.png">
+<p align="center">
+    <img src="Screenshots/example_ios.png">
+    <img src="Screenshots/example_macos.png">
+</p>
 
 # Usage
 
@@ -195,7 +199,9 @@ struct ContentView: View {
 
 Will result in the following UI.
 
-<img align="center" src="Screenshots/styling_view.png">
+<p align="center">
+    <img src="Screenshots/styling_view.png">
+</p>
 
 ### Styling the container
 
@@ -275,6 +281,7 @@ struct ContentView: View {
 
 The result of such style is demonstrated by the following screenshots.
 
-<img align="center" src="Screenshots/styling_container.png">
-
-<img align="center" src="Screenshots/styling_container_macos.png">
+<p align="center">
+    <img src="Screenshots/styling_container.png">
+    <img src="Screenshots/styling_container_macos.png">
+</p>
