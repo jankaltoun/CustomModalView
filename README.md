@@ -285,3 +285,13 @@ The result of such style is demonstrated by the following screenshots.
     <img src="Screenshots/styling_container.png">
     <img src="Screenshots/styling_container_macos.png">
 </p>
+
+## Author
+
+Jan Kaltoun, jan.kaltoun@me.com
+
+## License
+
+Please do whatever you want with this code.
+
+If you link to this repository or mention me as the author, it will make me happy!
