@@ -4,7 +4,7 @@ Custom Modal View is a tiny SwiftUI library that lets you present completely cus
 
 It's API is built similar to the one of native `.sheet(...)` view modifier and its usage fits well into the existing SwiftUI apps.
 
-![Styling View](screenshots/preview.gif)
+![Styling View](Screenshots/preview.gif)
 
 # Installation
 
@@ -20,9 +20,9 @@ This library is best used on iOS and iPadOS but macOS works as well.
 
 The code would compile for tvOS and watchOS as well but the UI paradigms there are different enough so that using modals does not really make sense.
 
-![Styling View](screenshots/example_ios.png)
+![Styling View](Screenshots/example_ios.png)
 
-![Styling View](screenshots/example_macos.png)
+![Styling View](Screenshots/example_macos.png)
 
 # Usage
 
@@ -195,7 +195,7 @@ struct ContentView: View {
 
 Will result in the following UI.
 
-![Styling View](screenshots/styling_view.png)
+![Styling View](Screenshots/styling_view.png)
 
 ### Styling the container
 
@@ -275,6 +275,6 @@ struct ContentView: View {
 
 The result of such style is demonstrated by the following screenshots.
 
-![Styling View](screenshots/styling_container.png)
+![Styling View](Screenshots/styling_container.png)
 
-![Styling View](screenshots/styling_container_macos.png)
+![Styling View](Screenshots/styling_container_macos.png)
