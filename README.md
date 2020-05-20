@@ -1,6 +1,6 @@
 # Custom Modal View
 
-Custom Modal View is a tiny SwiftUI library that lets you present completely customizable modal dialogs.
+Custom Modal View is a lightweight SwiftUI library that lets you present completely customizable modal dialogs.
 
 It's API is built similar to the one of native `.sheet(...)` view modifier and its usage fits well into the existing SwiftUI apps.
 <p align="center">
@@ -15,6 +15,14 @@ Simply add URL of this repository into your package dependencies:
 
 ```
 https://github.com/jankaltoun/custom-modal-view
+```
+
+## Cocoapods
+
+To use this library with Cocoapods, add the following line into your Podfile.
+
+```
+pod 'CustomModalView'
 ```
 
 # Platform support
