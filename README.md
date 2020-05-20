@@ -205,7 +205,7 @@ Will result in the following UI.
 
 ### Styling the container
 
-If you need to adjust roundness of the corners, background of the modal or basically anything else, you can create your own modal style.
+If you need to adjust the corner radius, background of the modal or basically anything else, you can create your own modal style.
 
 Defining your own style is easy. First create a `struct` conforming to `ModalStyle` protocol and then implement the two required functions.
 
