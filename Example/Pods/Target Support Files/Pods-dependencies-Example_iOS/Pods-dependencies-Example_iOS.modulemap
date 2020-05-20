@@ -1,0 +1,6 @@
+framework module Pods_dependencies_Example_iOS {
+  umbrella header "Pods-dependencies-Example_iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}
