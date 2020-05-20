@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,14 +15,12 @@
 		2FA12B702472E77200685D79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FA12B6E2472E77100685D79 /* LaunchScreen.storyboard */; };
 		2FA12B792472E7A500685D79 /* FirstDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA12B782472E7A500685D79 /* FirstDetailView.swift */; };
 		2FA12B7B2472E7BB00685D79 /* SecondDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA12B7A2472E7BB00685D79 /* SecondDetailView.swift */; };
-		2FA12B802472E92E00685D79 /* CustomModalView in Frameworks */ = {isa = PBXBuildFile; productRef = 2FA12B7F2472E92E00685D79 /* CustomModalView */; };
 		2FA12BA12472EF9700685D79 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA12BA02472EF9700685D79 /* ContentView.swift */; };
 		2FA12C372472F43E00685D79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA12C362472F43E00685D79 /* AppDelegate.swift */; };
 		2FA12C392472F43E00685D79 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA12C382472F43E00685D79 /* ContentView.swift */; };
 		2FA12C3B2472F43F00685D79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FA12C3A2472F43F00685D79 /* Assets.xcassets */; };
 		2FA12C3E2472F43F00685D79 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FA12C3D2472F43F00685D79 /* Preview Assets.xcassets */; };
 		2FA12C412472F43F00685D79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FA12C3F2472F43F00685D79 /* Main.storyboard */; };
-		2FA12C482472F46500685D79 /* CustomModalView in Frameworks */ = {isa = PBXBuildFile; productRef = 2FA12C472472F46500685D79 /* CustomModalView */; };
 		2FA12C492472F48E00685D79 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA12B672472E76F00685D79 /* MainView.swift */; };
 		2FA12C4A2472F48E00685D79 /* FirstDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA12B782472E7A500685D79 /* FirstDetailView.swift */; };
 		2FA12C4B2472F48E00685D79 /* SecondDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA12B7A2472E7BB00685D79 /* SecondDetailView.swift */; };
@@ -58,7 +56,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2FA12B802472E92E00685D79 /* CustomModalView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,7 +63,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2FA12C482472F46500685D79 /* CustomModalView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,7 +184,6 @@
 			);
 			name = Example_iOS;
 			packageProductDependencies = (
-				2FA12B7F2472E92E00685D79 /* CustomModalView */,
 			);
 			productName = Example;
 			productReference = 2FA12B602472E76F00685D79 /* Example_iOS.app */;
@@ -208,7 +203,6 @@
 			);
 			name = Example_macOS;
 			packageProductDependencies = (
-				2FA12C472472F46500685D79 /* CustomModalView */,
 			);
 			productName = Example_macOS;
 			productReference = 2FA12C342472F43E00685D79 /* Example_macOS.app */;
@@ -242,7 +236,6 @@
 			);
 			mainGroup = 2FA12B572472E76F00685D79;
 			packageReferences = (
-				2FA12B7E2472E92E00685D79 /* XCRemoteSwiftPackageReference "CustomModalView" */,
 			);
 			productRefGroup = 2FA12B612472E76F00685D79 /* Products */;
 			projectDirPath = "";
@@ -560,30 +553,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		2FA12B7E2472E92E00685D79 /* XCRemoteSwiftPackageReference "CustomModalView" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "file:///Users/jankaltoun/Code/Personal/CustomModalView";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 0.9.5;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		2FA12B7F2472E92E00685D79 /* CustomModalView */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 2FA12B7E2472E92E00685D79 /* XCRemoteSwiftPackageReference "CustomModalView" */;
-			productName = CustomModalView;
-		};
-		2FA12C472472F46500685D79 /* CustomModalView */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 2FA12B7E2472E92E00685D79 /* XCRemoteSwiftPackageReference "CustomModalView" */;
-			productName = CustomModalView;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2FA12B582472E76F00685D79 /* Project object */;
 }
