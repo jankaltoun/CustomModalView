@@ -1,0 +1,13 @@
+abstract_target 'dependencies' do
+	pod 'CustomModalView', :path => '../'
+
+	target 'Example_iOS' do
+		platform :ios, '13.0'
+		use_frameworks!
+	end
+
+	target 'Example_macOS' do
+	 	platform :osx, '10.15'
+	 	use_frameworks!
+	end
+end

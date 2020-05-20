@@ -1,0 +1,16 @@
+PODS:
+  - CustomModalView (1.0.0)
+
+DEPENDENCIES:
+  - CustomModalView (from `../`)
+
+EXTERNAL SOURCES:
+  CustomModalView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CustomModalView: f9c84fd0c469a0db091161e1c2611baec1c92bb7
+
+PODFILE CHECKSUM: d563de7185f3a62f865ad2e2ea6049fab5bbb2c7
+
+COCOAPODS: 1.9.1
