@@ -14,7 +14,7 @@ It's API is built similar to the one of native `.sheet(...)` view modifier and i
 Simply add URL of this repository into your package dependencies:
 
 ```
-https://github.com/jankaltoun/custom-modal-view
+https://github.com/jankaltoun/CustomModalView
 ```
 
 ## Cocoapods
