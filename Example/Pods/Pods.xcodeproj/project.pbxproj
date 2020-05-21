@@ -72,31 +72,31 @@
 		4416E1217F41E26367C94E8B2C3A93CF /* Pods-dependencies-Example_iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-dependencies-Example_iOS.modulemap"; sourceTree = "<group>"; };
 		4B8C58FA9A6A092391389DDFA105D5D5 /* Pods-dependencies-Example_iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-dependencies-Example_iOS-umbrella.h"; sourceTree = "<group>"; };
 		535BC36523B7110511152619D28663B9 /* Pods-dependencies-Example_macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-dependencies-Example_macOS.release.xcconfig"; sourceTree = "<group>"; };
-		53E49FBA808C477A6FE882C20227AEC2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		53E49FBA808C477A6FE882C20227AEC2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		603C20E989A094E54DBE111793312190 /* CustomModalView-macOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CustomModalView-macOS-prefix.pch"; path = "../CustomModalView-macOS/CustomModalView-macOS-prefix.pch"; sourceTree = "<group>"; };
 		61FD35353D77680284EDB0F7EC97EAA6 /* Pods-dependencies-Example_iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-dependencies-Example_iOS-Info.plist"; sourceTree = "<group>"; };
 		6FE7AF42D5FD49EDCA26E449F044CF51 /* Pods-dependencies-Example_macOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-dependencies-Example_macOS-Info.plist"; sourceTree = "<group>"; };
 		70FF8FFC15783553B57215D923CF64D9 /* CustomModalView-macOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CustomModalView-macOS-umbrella.h"; path = "../CustomModalView-macOS/CustomModalView-macOS-umbrella.h"; sourceTree = "<group>"; };
-		716FF852CC4AB9E068F30EE12670A5C8 /* CustomModalView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CustomModalView.framework; path = "CustomModalView-macOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		716FF852CC4AB9E068F30EE12670A5C8 /* CustomModalView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CustomModalView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D6FAC4C01DD343ACC5BCE6D11896F84 /* View+ModalStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "View+ModalStyle.swift"; sourceTree = "<group>"; };
 		82EC1C6DAFB476F692552B7DAD8CA568 /* CustomModalView-iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CustomModalView-iOS-Info.plist"; sourceTree = "<group>"; };
 		86CBC2E709984CD456486F1040492206 /* Pods-dependencies-Example_iOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-dependencies-Example_iOS-acknowledgements.plist"; sourceTree = "<group>"; };
 		8C7B2CB1DE3C14C96BD2E8DDC840230A /* Environment+ModalStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Environment+ModalStyle.swift"; sourceTree = "<group>"; };
-		8D9DF96F04D2E53B4112FC8246281DF6 /* Pods_dependencies_Example_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_dependencies_Example_macOS.framework; path = "Pods-dependencies-Example_macOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D9DF96F04D2E53B4112FC8246281DF6 /* Pods_dependencies_Example_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dependencies_Example_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E6C05E3870D3B591A974A7C37581A2C /* CustomModalView-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "CustomModalView-iOS.modulemap"; sourceTree = "<group>"; };
 		90F14C03A7886A42F3E99AB19FC5D684 /* CustomModalView-macOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CustomModalView-macOS-dummy.m"; path = "../CustomModalView-macOS/CustomModalView-macOS-dummy.m"; sourceTree = "<group>"; };
 		914F1DAF379DEA1DF8797556F3E1520A /* Pods-dependencies-Example_macOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-dependencies-Example_macOS-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9211D7160CD18CACCE680EDA5B6B65F2 /* Pods-dependencies-Example_macOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-dependencies-Example_macOS-acknowledgements.plist"; sourceTree = "<group>"; };
-		9AD69F3B3C3109FB33850893AEA05A23 /* Pods_dependencies_Example_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_dependencies_Example_iOS.framework; path = "Pods-dependencies-Example_iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D915B3E9D0FC4A306FDA9282BBDCC54 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A25B10083738918389CB9A1FA6779E75 /* CustomModalView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CustomModalView.framework; path = "CustomModalView-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AD69F3B3C3109FB33850893AEA05A23 /* Pods_dependencies_Example_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dependencies_Example_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D915B3E9D0FC4A306FDA9282BBDCC54 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A25B10083738918389CB9A1FA6779E75 /* CustomModalView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CustomModalView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3A775A2CCF3F70C443F3082CD5C88F2 /* Pods-dependencies-Example_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-dependencies-Example_iOS.release.xcconfig"; sourceTree = "<group>"; };
 		A41C8E192EEE37F47BB334135DB0DF36 /* CustomModalView-macOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "CustomModalView-macOS.debug.xcconfig"; path = "../CustomModalView-macOS/CustomModalView-macOS.debug.xcconfig"; sourceTree = "<group>"; };
 		AC249E279D28C11BC7B099C89F49C4D2 /* Pods-dependencies-Example_iOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-dependencies-Example_iOS-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B0C2DEFA928CA46AD312572842C4C19E /* ModalStyleConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ModalStyleConfiguration.swift; sourceTree = "<group>"; };
 		B0F157D15C1125F639B586AA10426FC9 /* CustomModalView-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "CustomModalView-iOS.debug.xcconfig"; sourceTree = "<group>"; };
-		B535E71B4F3FDEF12537BBCC6495127B /* CustomModalView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CustomModalView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B535E71B4F3FDEF12537BBCC6495127B /* CustomModalView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CustomModalView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B5AA111EF8AF252DAE474564B52ACBA2 /* ModalStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ModalStyle.swift; sourceTree = "<group>"; };
 		BB9F7C3AA509DA64E2A6A248C6B48D8A /* ModalPresentationMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ModalPresentationMode.swift; sourceTree = "<group>"; };
 		C46223D53610750B7E30CB0B4C9C7E10 /* CustomModalView-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CustomModalView-iOS-prefix.pch"; sourceTree = "<group>"; };
@@ -436,7 +436,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastUpgradeCheck = 1140;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 9.3";
@@ -566,7 +566,6 @@
 			baseConfigurationReference = 535BC36523B7110511152619D28663B9 /* Pods-dependencies-Example_macOS.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -732,7 +731,6 @@
 			baseConfigurationReference = 1FC28809D3F729A2B112D8D6FA58ACDC /* Pods-dependencies-Example_macOS.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -771,7 +769,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1CC4B29144CDAAFEF61007E1BB6704AE /* CustomModalView-macOS.release.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -848,7 +845,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A41C8E192EEE37F47BB334135DB0DF36 /* CustomModalView-macOS.debug.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
